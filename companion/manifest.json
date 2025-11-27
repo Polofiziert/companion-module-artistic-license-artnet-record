@@ -1,12 +1,12 @@
 {
-	"id": "generic-artnet",
-	"name": "generic-artnet",
+	"id": "artistic-license-artnet",
+	"name": "artistic-license-artnet",
 	"shortname": "artnet",
-	"description": "Artnet module for Companion",
+	"description": "Artnet Module for Companion with record function",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-generic-artnet.git",
-	"bugs": "https://github.com/bitfocus/companion-module-generic-artnet/issues",
+	"repository": "git+https://github.com/Polofiziert/companion-module-artistic-license-artnet-record.git",
+	"bugs": "https://github.com/Polofiziert/companion-module-artistic-license-artnet-record/issues",
 	"maintainers": [
 		{
 			"name": "Håkon Nessjøen",
@@ -20,7 +20,7 @@
 		"apiVersion": "0.0.0",
 		"entrypoint": "../lib/main.js"
 	},
-	"manufacturer": "Generic",
+	"manufacturer": "Artistic License",
 	"products": ["Art-Net"],
 	"keywords": ["Protocol", "Lighting", "Generic"]
 }
