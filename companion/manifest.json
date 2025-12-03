@@ -9,8 +9,8 @@
 	"bugs": "https://github.com/Polofiziert/companion-module-artistic-license-artnet-record/issues",
 	"maintainers": [
 		{
-			"name": "Håkon Nessjøen",
-			"email": "haakon@bitfocus.io"
+			"name": "Polofiziert",
+			"email": "polo@polofiziert.de"
 		}
 	],
 	"legacyIds": ["artnet"],
