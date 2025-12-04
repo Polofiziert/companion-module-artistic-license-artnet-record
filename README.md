@@ -41,10 +41,11 @@ It is just the ArtNet portion of the recevied UDP Packet.
 
 This is a example of the Object the discover message returnes to the user.
 ```
+debug: main/discovery/_discoveredNode: dev shortName:
 {
-"shortName":"\u00040",
-"name":"shop",
-"address":"65.114.116.45",
+"shortName":"DMX-Workshop",
+"name":"op",
+"address":"192.168.1.102",
 "port":6454,
 "version":1049,
 "netSwitch":48,
@@ -52,7 +53,7 @@ This is a example of the Object the discover message returnes to the user.
 "oem":8704,
 "ubeaVersion":105,
 "estaCode":30976,
-"nodeReport":
-"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�Lj<���\u0001f\u0001\u0000"
+"nodeReport":"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�Lj<���\u0001f\u0001\u0000"
 }
+
 ´´´
