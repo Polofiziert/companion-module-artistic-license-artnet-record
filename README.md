@@ -39,7 +39,7 @@ The Raw data object looks like this:
 
 It is just the ArtNet portion of the recevied UDP Packet.
 
-
+This is a example of the Object the discover message returnes to the user.
 ```
 {
 "shortName":"\u00040",
