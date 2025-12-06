@@ -1,3 +1,4 @@
 /pkg
 /pkg.tgz
 node_modules/
+dmxData/*.json
