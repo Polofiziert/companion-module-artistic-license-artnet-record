@@ -56,4 +56,15 @@ debug: main/discovery/_discoveredNode: dev shortName:
 "nodeReport":"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001@\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�Lj<���\u0001f\u0001\u0000"
 }
 
-´´´
+```
+
+# Companion Pi installation
+Should work out of the box.
+
+If you need the Webinterface to be seen on 192.168.0.0/24 but your artnet hardware works by spec in 2.0.0.0/8, just ssh into the PI and add a Ip Address with ip command:
+```bash
+sudo ip addr add 2.0.0.10/8 dev eth0
+```
+Remember to chose the right interface and address. This is testet by myself.
+
+This will add an ip address to the single NIC of the PI. you can obviosly just buy another NIC for the USB Ports of the PI if you need to be on an real physical net. this is not tested by myself.
